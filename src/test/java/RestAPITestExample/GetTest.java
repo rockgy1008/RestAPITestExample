@@ -15,7 +15,7 @@ public class GetTest {
 		  get("get")
 	      .then()
 	      .body("url", equalTo( "https://httpbin.org/get"))
-		  .body("origin", equalTo("83.110.1.42"));
+		  .body("origin", equalTo("83.110.1.412"));
 	  }
 	  @BeforeTest
 	  public void beforeTest() {
